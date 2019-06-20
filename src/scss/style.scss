@@ -33,6 +33,10 @@ body {
     
     .home-inner {
         padding-top: 150px;
+
+        h1{
+            font-weight: 300;
+        }
     }
     
     .card-form {
@@ -48,3 +52,6 @@ body {
     font-size: $icon-size;
 }
 
+textarea {
+    resize: none;
+}

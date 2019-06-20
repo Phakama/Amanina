@@ -21,6 +21,8 @@ body {
     height: 700px; }
   #home-section .home-inner {
     padding-top: 150px; }
+    #home-section .home-inner h1 {
+      font-weight: 300; }
   #home-section .card-form {
     opacity: 0.8; }
 
@@ -30,3 +32,6 @@ body {
   padding: 4px;
   border-radius: 5px;
   font-size: 30px; }
+
+textarea {
+  resize: none; }
