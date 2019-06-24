@@ -16,6 +16,10 @@ body {
     opacity: 0.8;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: $font-color;
+}
+
 #home-section {
     background: url('../img/home.jpg') no-repeat;
     min-height: 700px;
@@ -42,16 +46,43 @@ body {
     .card-form {
         opacity: 0.8;
     }
-}
 
-.fa {
-    color: $primary-color;
-    background: #fff;
-    padding: 4px;
-    border-radius: 5px;
-    font-size: $icon-size;
+    .fa {
+        color: $primary-color;
+        background: #fff;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
+    }
 }
 
 textarea {
     resize: none;
+}
+
+#services-section{
+    h3 {
+        font-weight: bold;
+    }
+
+    .fa {
+        color: $font-color;
+        background: #333;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
+    }
+
+    .img-fluid {
+        padding-top: 45px;
+    }
+
+    #ordering .img-fluid {
+        width: 70%;
+        height: 100%;
+    }
+}
+
+#about-head-section {
+    background: $primary-color;
 }

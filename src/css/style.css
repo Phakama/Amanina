@@ -7,6 +7,9 @@ body {
   border-bottom: #c20953 3px solid;
   opacity: 0.8; }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff; }
+
 #home-section {
   background: url("../img/home.jpg") no-repeat;
   min-height: 700px;
@@ -25,13 +28,32 @@ body {
       font-weight: 300; }
   #home-section .card-form {
     opacity: 0.8; }
+  #home-section .fa {
+    color: #c20953;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; }
 
-.fa {
-  color: #c20953;
-  background: #fff;
+textarea {
+  resize: none; }
+
+#services-section h3 {
+  font-weight: bold; }
+
+#services-section .fa {
+  color: #fff;
+  background: #333;
   padding: 4px;
   border-radius: 5px;
   font-size: 30px; }
 
-textarea {
-  resize: none; }
+#services-section .img-fluid {
+  padding-top: 45px; }
+
+#services-section #ordering .img-fluid {
+  width: 70%;
+  height: 100%; }
+
+#about-head-section {
+  background: #c20953; }
