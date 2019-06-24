@@ -77,10 +77,14 @@ textarea {
         padding-top: 45px;
     }
 
-    #ordering .img-fluid {
-        width: 70%;
-        height: 100%;
+    #ordering{
+    h4 {
+        font-weight: bold;
     }
+    .col-md-3 {
+        padding-top: 90px;
+    }
+}
 }
 
 #about-head-section {

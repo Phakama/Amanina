@@ -51,9 +51,11 @@ textarea {
 #services-section .img-fluid {
   padding-top: 45px; }
 
-#services-section #ordering .img-fluid {
-  width: 70%;
-  height: 100%; }
+#services-section #ordering h4 {
+  font-weight: bold; }
+
+#services-section #ordering .col-md-3 {
+  padding-top: 90px; }
 
 #about-head-section {
   background: #c20953; }
