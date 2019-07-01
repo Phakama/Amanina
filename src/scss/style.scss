@@ -60,7 +60,7 @@ textarea {
     resize: none;
 }
 
-#services-section{
+#services-section {
     h3 {
         font-weight: bold;
     }
@@ -87,6 +87,24 @@ textarea {
 }
 }
 
-#about-head-section {
+#about-head-section, #services-head-section {
     background: $primary-color;
+}
+
+#about-section {
+    background-color: $font-color;
+    color: #6c757d;
+
+    h3 {
+        font-weight: bold;
+    }
+
+    .fa {
+        color: $font-color;
+        background: #333;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
 }

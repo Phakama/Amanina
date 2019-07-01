@@ -57,5 +57,17 @@ textarea {
 #services-section #ordering .col-md-3 {
   padding-top: 90px; }
 
-#about-head-section {
+#about-head-section, #services-head-section {
   background: #c20953; }
+
+#about-section {
+  background-color: #fff;
+  color: #6c757d; }
+  #about-section h3 {
+    font-weight: bold; }
+  #about-section .fa {
+    color: #fff;
+    background: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 15px; }
