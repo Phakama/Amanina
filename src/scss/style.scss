@@ -1,7 +1,7 @@
 // Main Sass File
 $bg-color: #333;
 $font-color: #fff;
-$primary-color: #c20953;
+$primary-color: #007bff;
 $dark-overlay: rgba(0, 0, 0, 0.7);
 $icon-size: 30px;
 
@@ -107,4 +107,24 @@ textarea {
         font-size: 15px;
     }
 
+}
+
+#footer-section {
+    background: $primary-color;
+    color: $font-color;
+
+    a {
+        color: $font-color;
+    }
+
+    #menu a {
+        text-decoration: underline;
+    }
+
+    .footer-copyright {
+        background: rgba(0,0,0,.2);
+        color: rgba(255,255,255,.6);
+
+        
+    }
 }

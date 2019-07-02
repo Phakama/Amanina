@@ -4,7 +4,7 @@ body {
   font-family: 'Montserrat', sans-serif; }
 
 .navbar {
-  border-bottom: #c20953 3px solid;
+  border-bottom: #007bff 3px solid;
   opacity: 0.8; }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -29,7 +29,7 @@ body {
   #home-section .card-form {
     opacity: 0.8; }
   #home-section .fa {
-    color: #c20953;
+    color: #007bff;
     background: #fff;
     padding: 4px;
     border-radius: 5px;
@@ -58,7 +58,7 @@ textarea {
   padding-top: 90px; }
 
 #about-head-section, #services-head-section {
-  background: #c20953; }
+  background: #007bff; }
 
 #about-section {
   background-color: #fff;
@@ -71,3 +71,14 @@ textarea {
     padding: 4px;
     border-radius: 5px;
     font-size: 15px; }
+
+#footer-section {
+  background: #007bff;
+  color: #fff; }
+  #footer-section a {
+    color: #fff; }
+  #footer-section #menu a {
+    text-decoration: underline; }
+  #footer-section .footer-copyright {
+    background: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.6); }
