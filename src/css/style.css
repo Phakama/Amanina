@@ -22,14 +22,15 @@ body {
   min-height: 100vh;
   background-size: cover;
   background-attachment: fixed;
-  max-width: 100%; }
+  max-width: 100%;
+  min-height: 100vh; }
   #home-section .dark-overlay {
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
-    max-height: 100%; }
+    min-height: 100vh; }
   #home-section .home-inner {
     padding-top: 150px; }
     #home-section .home-inner h1 {
@@ -92,11 +93,14 @@ textarea {
     color: rgba(255, 255, 255, 0.6); }
 
 @media (max-width: 768px) {
+  html {
+    min-width: 100vw;
+    overflow-x: hidden; }
   header #home-section {
     text-align: center;
-    width: 100%; }
+    min-height: 100%; }
     header #home-section .home-inner {
-      width: 100%; }
+      min-height: 100%; }
   #home-section .home-inner h1 {
     font-size: xx-large;
     margin-left: 15px;
